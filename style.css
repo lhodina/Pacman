@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Press Start 2P";
+}
+
+audio {
+    position: absolute;
+    z-index: 1;
+}
+
+#world {
+    position: relative;
+}
+
+.row {
+    line-height: 0;
+}
+
+.row div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.brick {
+    background-color: blue;
+}
+
+.coin {
+    background: url('./images/coin_still.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pacman {
+    background: url('./images/packer-smile.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.empty {
+    background: url('./images/poop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#score {
+    border: 1px solid white;
+    color: rgb(23, 235, 23);
+    padding: 10px;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+.cherries {
+    background: url('./images/cherries.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#game-over {
+    color: rgb(23, 235, 23);
+    font-size: 20px;
+}
+
+#dwight {
+    background: url("./images/dwight-3.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#angela {
+    background: url("./images/angela.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#jan {
+    background: url("./images/jan.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#jim {
+    background: url("./images/jim.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#pam {
+    background: url("./images/pam-2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* .ghost {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
