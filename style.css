@@ -9,10 +9,6 @@ body {
     font-family: "Press Start 2P";
 }
 
-audio {
-    position: absolute;
-    z-index: 1;
-}
 
 #world {
     position: relative;
@@ -29,14 +25,21 @@ audio {
 }
 
 .brick {
-    background-color: blue;
+    background-color: rgb(56,47,211)
 }
 
 .coin {
-    background: url('./images/coin_still.gif');
+    background: url('./images/coin_simple.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 40%;
+}
+
+.mega-coin {
+    background: url('./images/coin.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
 }
 
 #pacman {
@@ -44,10 +47,12 @@ audio {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    margin: 2px;
     position: absolute;
     border-radius: 50%;
+    border: 3px solid rgb(250,247,78);
 }
 
 
@@ -87,6 +92,7 @@ audio {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 3px solid rgb(255,42,9);
 }
 
 #angela {
@@ -97,17 +103,9 @@ audio {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 3px solid rgb(254,184,184);
 }
 
-#jan {
-    background: url("./images/jan.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
 
 #jim {
     background: url("./images/jim.gif");
@@ -117,6 +115,7 @@ audio {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 3px solid rgb(164,253,255);;
 }
 
 #pam {
@@ -127,6 +126,7 @@ audio {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 3px solid rgb(254,140,15);
 }
 
 
